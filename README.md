@@ -1,231 +1,68 @@
-Jornada Desafio Soluções Inovadores para Facilitar a comunicação entre o Profissional, a Instituição de Ensino e o Crea- SP.
+# Jornada Desafio: Soluções Inovadoras para Facilitar a Comunicação entre Profissionais, Instituições de Ensino e Crea-SP
 
+Este repositório documenta a jornada de desafio e a proposta de solução desenvolvida para melhorar a comunicação entre profissionais, instituições de ensino e o Conselho Regional de Engenharia e Agronomia de São Paulo (Crea-SP).
 
+## Contexto e Desafio
 
-Ouvimos no processo alguns pontos que nos fez acreditar em uma solução onde os três pilares pudessem se beneficiar. 
+Durante o processo de análise, identificamos a necessidade de aprimorar a interação entre os três pilares envolvidos: profissionais, instituições de ensino e o Crea-SP. Inicialmente, nossa abordagem focava na integração direta do cadastro da instituição no Crea, mas, após considerar diferentes perspectivas, decidimos ajustar nossa estratégia.
 
+## Pontos de Destaque
 
+### Alunos
 
-Antes de seguirmos e encontramos esse processo tinhamos uma ideia onde o foco não era no futuro profissional durante o processo e sim a instituição de ensino e o CREA. Pensavamos que uma ferramenta onde pudesse integrar o cadastro da instituição fosse diretamente para o CREA, mas ouvindo e relembrando de alguns pontos nos fez mudar de estretegia. 
+- Cerca de 25.000 alunos se formam anualmente.
+- O processo de cadastro no Crea varia de 15 a 20 dias, podendo ser estendido em casos de pendências documentais.
+- Dificuldades na compreensão das atribuições profissionais após a conclusão do curso.
 
+### Instituições
 
+- Universidades têm autonomia para criar grades curriculares, mas o registro no Crea pode ser adiado devido à burocracia e prioridades institucionais.
 
-Segue nossos pontos de escutas.
+### Crea-SP
 
+- Processamento de 280 casos entre instituições e Crea, cada um com 500 páginas.
+- Comunicação por e-mail e carta registrada, resultando em lentidão no envio de documentação.
 
+### Desafios
 
-Sobre os alunos:
+- Adaptação à LGPD.
+- Avaliação do interesse das instituições na adoção do sistema de integração.
 
-25000 alunos se formam.
-O aluno que visa o cadastro no CREA recebe o documento “ Carteira CREA” entre 15 a 20 dias sem pendências de documentos.
-Com pendências, ou análises de fraudes esse processo pode durar um tempo maior, pois necessita de troca de informações com a instituição.
-Carteira definitiva após entrega de certificado.
-Só recebem a olação de grau.
-Alguns alunos não sabem suas atribuições após finalização do curso.
+## Proposta de Solução
 
+Desenvolvemos uma proposta abrangente para criar uma conexão eficiente entre alunos e o Crea-SP. Desta forma, a jornada do aluno seria aprimorada, oferecendo benefícios tanto para o Crea quanto para as instituições de ensino.
 
-Sobre as Intituições:
+### Benefícios para Alunos
 
-Universidades tem autonomia para criar grades curriculares. Porém tem que registrar o curso no Crea. Algumas não fazem de imediato pois tem toda grade curricular para realizar essa ação.
-Cultura Organizacional fazem com que as prioridades sejam outras.
+1. Verificação da atualização da grade curricular da instituição no sistema.
+2. Visualização anual da grade curricular através da integração com o portal do aluno.
+3. Aproximação entre aluno e Crea, proporcionando informações sobre atribuições profissionais desde o início do curso.
+4. Prevenção contra fraudes, estabelecendo um vínculo entre o aluno e o Crea desde o início da jornada acadêmica.
 
+### Benefícios para Instituições
 
-Sobre o CREA:
+1. Eliminação do envio de PDFs com informações da grade, utilizando o sistema do aluno.
+2. Geração de certificados finais com validação digital.
+3. Valorização da relação institucional com o Crea.
 
-280 processos entre Instituição de ensino e CREA, com 500 páginas cada processo.
-Comunicação via e-mail.
-Comunicação via carta registrada.
-Morosidade no processo de envio de documentação instituição para o Crea.
-O tipo de Registro poderá ser: Registro com atestado (quando o diploma ainda não foi confeccionado pela escola) ou Registro com diploma.
+### Benefícios para Estudantes
 
+1. Verificação da validação do curso pela universidade.
+2. Conhecimento prévio das atribuições futuras com base nas grades curriculares.
+3. Facilitação do processo de associação ao Crea, com entrega antecipada de documentos no último semestre.
+4. Recebimento da Carteira Crea após a colação de grau.
 
-Desafio da proposta: 
+## Validação da Proposta
 
-LGPD, Interesse da instituição em usar esse sistema de integração.
+Parte do grupo realizou visitas técnicas para compreender o fluxo, e feedbacks positivos foram obtidos na Universidade Roberto Miranda e considerações relevantes foram feitas pelo diretor Pablo Telles Caldas. A estrutura de custos envolveria investimento em horas de desenvolvedores, comunicação por e-mails/reuniões e divulgação nas mídias sociais.
 
+## LGPD e Conectividade
 
-Proposta de solução: 
+A solução proposta aborda as preocupações da LGPD através de um acordo de cooperação técnica. A integração é facilitada conectando o Portal do Aluno à aba do Crea, onde a API busca informações da grade e as envia ao Crea em formato de arquivo.
 
-Criar uma conexão entre alunos e CREA, de maneira que a jornada do aluno
-pudesse oferecer ao CREA:
+## Referências
 
- Condições de saber se a entidade de ensino está com sua grade
-curricular atualizada no sistema.
-Permitir que o CREA consiga visualizar informações da grade curricular
-anualmente devido integração com o sistema portal do aluno.
-Trazer uma aproximação entre aluno e CREA.
-Levar ao aluno Informações sobre suas atribuições, sobre sua instituição
-de ensino.
-Em relação a fraude o Crea teria um vínculo com esse aluno desde do
-inicio de sua jornada no curso desejavel.
-
-
-Solução que traria benefícios a instituição:
-
- As informações da grade no sistema do aluno faria com que não
-necessitasse o envio de todos de PDFS. 
-O certficado final poderia ser gerado pelo sistema com validação digital.
-A instituição poderia valorizar essa relação pois ela faz parte do sistema
-CREA. Onde o aluno tem uma conexão com a entidade.
-
-
-E claro os beneficios aos estudantes:
-
-Ao ingressar no sistema via universidade ou não, ele saberia se o curso é
-validado pelo universidade.
-Teria uma prévia de suas atribuições futuras, conforme as grades serem
-apresentadas.
-Tendo o interesse de se associar ao CREA, já poderia entregar todos os
-documentos necessários no último semestre para se associar. 
-E após sua colação de grau teria sua Carteira CREA.
-
-
-
-Validação da proposta:
-
-Parte do grupo realizou algumas visitas técnicas para obter informações
-sobre o fluxo do ponto de vista seguindo a ótica da Instituição. A unidade da
-FIAP visitada não tinha essa relação e ficamos sabendo que a Unip tem um
-setor que cuida diretamente do tema do CREA, porém em outra unidade. 
-
-
-
-Em busca de informações a Universidade Roberto Miranda acolheu o grupo e
-o diretor Pablo Telles Caldas após ouvir os embaixadores do PORTAL CREA, 
-explicou que tem uma relação com o CAU ( Conselho de Arquitetura e
-Urbanismo do Brasil) e passam por um processo parecido de buracracia
-porém como univesidade está num processo recente de abertura de grade
-curricular e ainda não realizou o cadastramento. 
-
-
-Fez algumas ponderações e a mais relevante:
-
-
-
-“Seria interessante se essa fosse uma ferramenta do CAU pois teria uma
-relação de credibilidade com um orgão certificador. Eu usária como
-Instituição, facilitaria a relação com orgão e deixaria de fazer trabalho duplo.
-
-
-
-Estrutura de custos: 
-
-Investimento em horas de desenvolvedores.
-Comunicação via e-mails/reuniões informando a nova ferramenta com
-Demo para instituições.
-Divulgação nas mídias socias do beneficio do aluno fazer parte desse
-potal, que a principio, num primeiro momento não necessariamente neste
-eestágio inicial precisa ter uma relação com a escola, porém solictando
-essa integração para que ele acompanhe em seu portal.
-
-
-LGPD
-
-A solução em relação ao LGPD pode ser firmado um acordo de cooperação
-técnica, e durante o processo de abertura do painel ou outro evento tipo
-matricula a informação de integração é apresentada pedindo autorização.
-
-Conectando o Portal do Aluno com a aba do CREA, onde a API irá buscar as
-informações da grande e enviar em formato arquivo para o CREA. 
-
-
-
-Bibliografias
-
-
-
-https://www.creasp.org.br/perguntas-frequentes/profissional/
-
-https://www.creasp.org.br/quero-me-registrar/
-
-https://creanet1.creasp.org.br/ServicosOnline/InstituicaoEnsino/PesquisaPu
-blicaIES.aspx
-
-LGPD.
-
-https://www.gov.br/anpd/pt-br/documentos-e-
-publicacoes/guia_tratamento_de_dados_pessoais_pelo_poder_publico
-___defeso_eleitoral.pdf
-
-
-Jornada Desafio Soluções Inovadores para Facilitar a comunicação entre o Profissional, a Instituição de Ensino e o Crea- SP. 
-
-
-
-Ouvimos no processo alguns pontos que nos fez acreditar em uma solução onde os três pilares pudessem se beneficiar. Profissional, instituição de ensino e o CREA.
-
-
-
-Nossa primeira ideia foi a princípio encontramos esse processo tínhamos uma ideia onde o foco não era no futuro profissional durante o processo e sim a instituição de ensino e o CREA. Pensávamos que uma ferramenta onde pudesse integrar o cadastro da instituição fosse diretamente para o CREA, mas ouvindo e relembrando de alguns pontos nos fez mudar de estratégia. Segue nossos pontos de escutas. Sobre os alunos:25000 alunos se formam. O aluno que visa o cadastro no CREA recebe o documento “ Carteira CREA” entre 15 a 20 dias sem pendências de documentos. Com pendências, ou análises de fraudes esse processo pode durar um tempo maior, pois necessita de troca de informações com a instituição. Carteira definitiva após entrega de certificado. Só recebem a colação de grau. Alguns alunos não sabem suas atribuições após finalização do curso. Sobre as Instituições: Universidades tem autonomia para criar grades curriculares. Porém tem que registrar o curso no Crea. Algumas não fazem de imediato pois tem toda grade curricular para realizar essa ação. Cultura Organizacional fazem com que as prioridades sejam outras. Sobre o CREA:280 processos entre Instituição de ensino e CREA, com 500 páginas cada processo. Comunicação via e-mail. Comunicação via carta registrada. Morosidade no processo de envio de documentação instituição para o Crea. O tipo de Registro poderá ser: Registro com atestado (quando o diploma ainda não foi confeccionado pela escola) ou Registro com diploma. Desafio da proposta: LGPD, Interesse da instituição em usar esse sistema de integração. Proposta de solução: Criar uma conexão entre alunos e CREA, de maneira que a jornada do aluno pudesse oferecer ao CREA: Condições de saber se a entidade de ensino está com sua grade curricular atualizada no sistema. Permitir que o CREA consiga visualizar informações da grade curricular anualmente devido integração com o sistema portal do aluno. Trazer uma aproximação entre aluno e CREA. Levar ao aluno Informações sobre suas atribuições, sobre sua instituição de ensino. Em relação a fraude o Crea teria um vínculo com esse aluno desde do inicio de sua jornada no curso desejável. Solução que traria benefícios a instituição: As informações da grade no sistema do aluno faria com que não necessitasse o envio de todos de PDFS.O certificado final poderia ser gerado pelo sistema com validação digital. A instituição poderia valorizar essa relação pois ela faz parte do sistema CREA. Onde o aluno tem uma conexão com a entidade. E claro os benefícios aos estudantes: Ao ingressar no sistema via universidade ou não, ele saberia se o curso é validado pelo universidade. Teria uma prévia de suas atribuições futuras, conforme as grades serem apresentadas. Tendo o interesse de se associar ao CREA, já poderia entregar todos os documentos necessários no último semestre para se associar. E após sua colação de grau teria sua Carteira CREA. Validação da proposta: Parte do grupo realizou algumas visitas técnicas para obter informações sobre o fluxo do ponto de vista seguindo a ótica da Instituição. A unidade da FIAP visitada não tinha essa relação e ficamos sabendo que a Unip tem um setor que cuida diretamente do tema do CREA, porém em outra unidade. Em busca de informações a Universidade Roberto Miranda acolheu o grupo e o diretor Pablo Telles Caldas após ouvir os embaixadores do PORTAL CREA, explicou que tem uma relação com o CAU ( Conselho de Arquitetura e Urbanismo do Brasil) e passam por um processo parecido de burocracia porém como universidade está num processo recente de abertura de grade curricular e ainda não realizou o cadastramento. Fez algumas ponderações e a mais relevante: “Seria interessante se essa fosse uma ferramenta do CAU pois teria uma relação de credibilidade com um órgão certificador. Eu usaria como Instituição, facilitaria a relação com órgão e deixaria de fazer trabalho duplo. Estrutura de custos: Investimento em horas de desenvolvedores. Comunicação via e-mails/reuniões informando a nova ferramenta com Demo para instituições. Divulgação nas mídias sócias do beneficio do aluno fazer parte desse portal, que a principio, num primeiro momento não necessariamente neste e estágio inicial precisa ter uma relação com a escola, porém solicitando essa integração para que ele acompanhe em seu portal. LGPDA solução em relação ao LGPD pode ser firmado um acordo de cooperação técnica, e durante o processo de abertura do painel ou outro evento tipo matricula a informação de integração é apresentada pedindo autorização. Conectando o Portal do Aluno com a aba do CREA, onde a API irá buscar as informações da grande e enviar em formato arquivo para o CREA.
-
-
-Jornada Desafio Soluções Inovadores para Facilitar a comunicação entre o
-Profissional, a Instituição de Ensino e o Crea- SP. Ouvimos no processo
-alguns pontos que nos fez acreditar em uma solução onde os três pilares
-pudessem se beneficiar. Antes de seguirmos e encontramos esse processo
-tínhamos uma ideia onde o foco não era no futuro profissional durante o
-processo e sim a instituição de ensino e o CREA. Pensávamos que uma
-ferramenta onde pudesse integrar o cadastro da instituição fosse
-diretamente para o CREA, mas ouvindo e relembrando de alguns pontos nos
-fez mudar de estratégia. Segue nossos pontos de escutas. Sobre os
-alunos:25000 alunos se formam. O aluno que visa o cadastro no CREA
-recebe o documento “ Carteira CREA” entre 15 a 20 dias sem pendências de
-documentos. Com pendências, ou análises de fraudes esse processo pode
-durar um tempo maior, pois necessita de troca de informações com a
-instituição. Carteira definitiva após entrega de certificado. Só recebem a
-colação de grau. Alguns alunos não sabem suas atribuições após
-finalização do curso. Sobre as Instituições: Universidades tem autonomia
-para criar grades curriculares. Porém tem que registrar o curso no Crea.
-Algumas não fazem de imediato pois tem toda grade curricular para realizar
-essa ação. Cultura Organizacional fazem com que as prioridades sejam
-outras. Sobre o CREA:280 processos entre Instituição de ensino e CREA, com
-500 páginas cada processo. Comunicação via e-mail. Comunicação via
-carta registrada. Morosidade no processo de envio de documentação
-instituição para o Crea. O tipo de Registro poderá ser: Registro com atestado
-(quando o diploma ainda não foi confeccionado pela escola) ou Registro
-com diploma. Desafio da proposta: LGPD, Interesse da instituição em usar
-esse sistema de integração. Proposta de solução: Criar uma conexão entre
-alunos e CREA, de maneira que a jornada do aluno pudesse oferecer ao
-CREA: Condições de saber se a entidade de ensino está com sua grade
-curricular atualizada no sistema. Permitir que o CREA consiga visualizar
-informações da grade curricular anualmente devido integração com o
-sistema portal do aluno. Trazer uma aproximação entre aluno e CREA. Levar
-ao aluno Informações sobre suas atribuições, sobre sua instituição de
-ensino. Em relação a fraude o Crea teria um vínculo com esse aluno desde
-do inicio de sua jornada no curso desejável. Solução que traria benefícios a
-instituição: As informações da grade no sistema do aluno faria com que não
-necessitasse o envio de todos de PDFS.O certificado final poderia ser gerado
-pelo sistema com validação digital. A instituição poderia valorizar essa
-relação pois ela faz parte do sistema CREA. Onde o aluno tem uma conexão
-com a entidade. E claro os benefícios aos estudantes: Ao ingressar no
-sistema via universidade ou não, ele saberia se o curso é validado pelo
-universidade. Teria uma prévia de suas atribuições futuras, conforme as
-grades serem apresentadas. Tendo o interesse de se associar ao CREA, já
-poderia entregar todos os documentos necessários no último semestre para
-se associar. E após sua colação de grau teria sua Carteira CREA. Validação
-da proposta: Parte do grupo realizou algumas visitas técnicas para obter
-informações sobre o fluxo do ponto de vista seguindo a ótica da Instituição.
-A unidade da FIAP visitada não tinha essa relação e ficamos sabendo que a
-Unip tem um setor que cuida diretamente do tema do CREA, porém em
-outra unidade. Em busca de informações a Universidade Roberto Miranda
-acolheu o grupo e o diretor Pablo Telles Caldas após ouvir os embaixadores
-do PORTAL CREA, explicou que tem uma relação com o CAU ( Conselho de
-Arquitetura e Urbanismo do Brasil) e passam por um processo parecido de
-burocracia porém como universidade está num processo recente de
-abertura de grade curricular e ainda não realizou o cadastramento. Fez
-algumas ponderações e a mais relevante: “Seria interessante se essa fosse
-uma ferramenta do CAU pois teria uma relação de credibilidade com um
-órgão certificador. Eu usaria como Instituição, facilitaria a relação com
-órgão e deixaria de fazer trabalho duplo. Estrutura de custos: Investimento
-em horas de desenvolvedores. Comunicação via e-mails/reuniões
-informando a nova ferramenta com Demo para instituições. Divulgação nas
-mídias sócias do beneficio do aluno fazer parte desse portal, que a principio,
-num primeiro momento não necessariamente neste e estágio inicial precisa
-ter uma relação com a escola, porém solicitando essa integração para que
-ele acompanhe em seu portal. LGPDA solução em relação ao LGPD pode ser
-firmado um acordo de cooperação técnica, e durante o processo de
-abertura do painel ou outro evento tipo matricula a informação de
-integração é apresentada pedindo autorização. Conectando o Portal do
-Aluno com a aba do CREA, onde a API irá buscar as informações da grande e
-enviar em formato arquivo para o CREA.
-
+- [Perguntas Frequentes Profissional - Crea-SP](https://www.creasp.org.br/perguntas-frequentes/profissional/)
+- [Quero me Registrar - Crea-SP](https://www.creasp.org.br/quero-me-registrar/)
+- [Pesquisa Pública de Instituições de Ensino - Crea-SP](https://creanet1.creasp.org.br/ServicosOnline/InstituicaoEnsino/PesquisaPublicaIES.aspx)
+- [LGPD - Guia Tratamento de Dados Pessoais pelo Poder Público](https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/guia_tratamento_de_dados_pessoais_pelo_poder_publico___defeso_eleitoral.pdf)
